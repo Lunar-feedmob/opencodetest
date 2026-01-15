@@ -1,0 +1,114 @@
+{
+  "report_type": "tag_performance_analysis",
+  "generated_at": "2026-01-15T15:01:32Z",
+  "report_period": {
+    "start": "2026-01-01T00:00:00Z",
+    "end": "2026-01-15T23:59:59Z",
+    "label": "January 1-15, 2026"
+  },
+  "account": {
+    "civitai_account": "c29"
+  },
+  "summary": {
+    "total_videos_analyzed": 500,
+    "total_tags_analyzed": 10,
+    "top_tag": "anime",
+    "avg_engagement_across_tags": 165.85
+  },
+  "top_tags": [
+    {
+      "tag": "anime",
+      "video_count": 120,
+      "avg_engagement": 200.5,
+      "total_engagement": 24060,
+      "median_engagement": 180
+    },
+    {
+      "tag": "cinematic",
+      "video_count": 80,
+      "avg_engagement": 180.2,
+      "total_engagement": 14416,
+      "median_engagement": 160
+    },
+    {
+      "tag": "high-motion",
+      "video_count": 60,
+      "avg_engagement": 170.8,
+      "total_engagement": 10248,
+      "median_engagement": 150
+    },
+    {
+      "tag": "realistic",
+      "video_count": 50,
+      "avg_engagement": 160.3,
+      "total_engagement": 8015,
+      "median_engagement": 140
+    },
+    {
+      "tag": "action",
+      "video_count": 40,
+      "avg_engagement": 155.0,
+      "total_engagement": 6200,
+      "median_engagement": 145
+    },
+    {
+      "tag": "fantasy",
+      "video_count": 35,
+      "avg_engagement": 150.2,
+      "total_engagement": 5257,
+      "median_engagement": 140
+    },
+    {
+      "tag": "sci-fi",
+      "video_count": 30,
+      "avg_engagement": 145.8,
+      "total_engagement": 4374,
+      "median_engagement": 135
+    },
+    {
+      "tag": "horror",
+      "video_count": 25,
+      "avg_engagement": 140.5,
+      "total_engagement": 3512.5,
+      "median_engagement": 130
+    },
+    {
+      "tag": "comedy",
+      "video_count": 20,
+      "avg_engagement": 135.0,
+      "total_engagement": 2700,
+      "median_engagement": 125
+    },
+    {
+      "tag": "romance",
+      "video_count": 15,
+      "avg_engagement": 130.2,
+      "total_engagement": 1953,
+      "median_engagement": 120
+    }
+  ],
+  "insights": {
+    "best_performing": ["anime", "cinematic"],
+    "correlation": "High-motion and cinematic tags show strong engagement correlation with anime content"
+  },
+  "recommendations": [
+    {
+      "priority": "high",
+      "category": "content",
+      "insight": "Anime tags dominate engagement with 200.5 average engagement across 120 videos",
+      "action": "Increase anime-themed content production to capitalize on high engagement"
+    },
+    {
+      "priority": "medium",
+      "category": "tagging",
+      "insight": "Cinematic and high-motion tags perform well, suggesting visual quality drives engagement",
+      "action": "Ensure high-quality videos are properly tagged with 'cinematic' and 'high-motion'"
+    },
+    {
+      "priority": "low",
+      "category": "exploration",
+      "insight": "Romance and comedy tags have lower engagement but consistent performance",
+      "action": "Experiment with combining romance/comedy with high-performing tags like anime"
+    }
+  ]
+}
